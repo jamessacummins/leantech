@@ -51,7 +51,7 @@ function addStepS(){
 
 function addButton(){
 	let button_link = document.createElement('a');
-	button_link.href = 'wiki.html';
+	button_link.href = 'index.html';
 
 		let button = document.createElement('button');
 		button.classList.add('article-button');
