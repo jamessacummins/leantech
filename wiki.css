@@ -1,0 +1,83 @@
+
+
+
+.preview-page{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+	align-content:flex-start;
+	padding:10px 10px;
+	min-height:100vh;
+	background-color:var(--darkgrey);
+}
+
+.preview-card{
+	flex-grow:1;
+	background:#fff;
+	min-width:260px;
+	min-height:260px;
+	margin:10px;
+	border-radius:5px;
+	overflow:hidden;
+}
+
+
+/*
+so we need a title, a div to emphasise and an image to occupy the rest of the card
+*/
+
+.title-container{
+	position:relative;
+	padding:10px;
+}
+
+.card-title{
+	text-align:left;
+	color:#333;
+	font-size:1.4rem;
+}
+.title-line{
+	width:150px;
+	height:15px;
+	background-color:var(--coolgreen);
+	position:absolute;
+	bottom:-10px;
+	left:20px;
+
+}
+
+
+
+.card-img{
+	background-image:url('content/img/use-phone.jpg');
+	background-size:cover;
+	background-position: center;
+	max-width:100%;
+	height:200px;
+}
+
+
+
+.click-container{
+	padding:10px;
+	position:relative;
+};
+
+.preview-link{
+
+}
+.preview-click{
+	text-align:right;
+	font-size:1rem;
+	color:#444;
+}
+
+.click-line{
+	width:150px;
+	height:15px;
+	background-color:var(--coolgreen);
+	position:absolute;
+	top:-10px;
+	right:20px;
+}
