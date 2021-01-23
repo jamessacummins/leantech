@@ -115,7 +115,7 @@ const wiki_data = [
         ],
     },
     {
-    	address:"sign-up.html",
+    	address:"details.html",
         title:"How to Edit my Details",
         image_location:"content/img/edit.jpg",
         step:[
@@ -138,7 +138,7 @@ const wiki_data = [
         ],
     },
     {
-        address:"sign-up.html",
+        address:"list.html",
         title:"How to Make a List",
         image_location:"content/img/list.jpg",
         step:[
@@ -161,7 +161,7 @@ const wiki_data = [
         ],
     },
     {
-        address:"sign-up.html",
+        address:"filterlist.html",
         title:"How to Filter a List",
         image_location:"content/img/filter.jpg",
         step:[
@@ -184,7 +184,7 @@ const wiki_data = [
         ],
     },
     {
-        address:"sign-up.html",
+        address:"email.html",
         title:"How to Send an Email",
         image_location:"content/img/email.jpg",
         step:[
@@ -207,7 +207,7 @@ const wiki_data = [
         ],
     },
     {
-        address:"sign-up.html",
+        address:"share.html",
         title:"How to Share an Item",
         image_location:"content/img/share.jpg",
         step:[
