@@ -22,11 +22,7 @@
 	text-transform:capitalize;
 }
 
-@media (max-width: 800px){
-	.article-h1{
-		font-size:20px;
-	};
-}; 
+
 
 .card-title{
 	font-size:1.2rem;
@@ -88,4 +84,22 @@
 	padding:10px 20px;
 	margin:10px auto 30px;
 	cursor:pointer;
+}
+
+@media (max-width: 800px){
+	.article-h1{
+		font-size:26px;
+	}
+	.image-div{
+		height:200px;
+		width:100%;
+	}
+	.step-gif{
+		width:250px;
+	}
+	.step-container{
+
+	min-width:90vw;
+
+	}
 }
