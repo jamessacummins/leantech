@@ -22,6 +22,12 @@
 	text-transform:capitalize;
 }
 
+@media (max-width: 800px){
+	.article-h1{
+		font-size:20px;
+	};
+}; 
+
 .card-title{
 	font-size:1.2rem;
 }
