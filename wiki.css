@@ -7,7 +7,7 @@
 	flex-wrap:wrap;
 	justify-content: space-evenly;
 	align-content:flex-start;
-	padding:10px 10px;
+	padding:20px;
 	min-height:100vh;
 	background-color:var(--darkgrey);
 }
@@ -17,9 +17,11 @@
 	background:#fff;
 	min-width:260px;
 	min-height:260px;
-	margin:10px;
+	margin:15px;
 	border-radius:5px;
 	overflow:hidden;
+	box-shadow:  7px 7px 14px #3a444f,
+             	-7px -7px 14px #404c57;
 }
 
 

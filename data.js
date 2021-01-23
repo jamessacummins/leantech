@@ -1,6 +1,6 @@
 const wiki_data = [
     {
-    	address:"sign-up.html",
+    	address:"app.html",
         title:"How to Download the App",
         image_location:"content/img/download.jpg",
         step:[
@@ -46,7 +46,7 @@ const wiki_data = [
         ],
     },
     {
-    	address:"sign-up.html",
+    	address:"item.html",
         title:"How to Add an Item",
         image_location:"content/img/drill.jpg",
         step:[
@@ -69,7 +69,7 @@ const wiki_data = [
         ],
     },
     {
-    	address:"sign-up.html",
+    	address:"site.html",
         title:"How to Add a Site",
         image_location:"content/img/site.jpg",
         step:[
@@ -92,7 +92,7 @@ const wiki_data = [
         ],
     },
     {
-    	address:"sign-up.html",
+    	address:"password.html",
         title:"How to Change my Password",
         image_location:"content/img/password.jpg",
         step:[

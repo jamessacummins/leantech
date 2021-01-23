@@ -10,6 +10,13 @@ function addHeader(){
 	article_container.appendChild(header);
 };
 
+function addImage(){
+	let article_image_div = document.createElement('div');
+	article_image_div.classList.add('image-div');
+	article_image_div.style.backgroundImage = `url('${wiki_data[article].image_location}')`;
+	article_container.appendChild(article_image_div);
+};
+
 function addStep(stepItem, stepIndex){
 
 	stepIndex++;
@@ -66,6 +73,7 @@ function addButton(){
 
 function addArticleContent(){
 	addHeader();
+	addImage();
 	addStepS();
 	addButton();
 };
