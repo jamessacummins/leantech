@@ -42,5 +42,5 @@ a{
 }
 
 .construction-background {
-	background: linear-gradient(to right, var(--darkgrey_t), var(--darkgrey_t)), url('content/img/construction-backdrop.jpg') repeat-y top center;
+	background: linear-gradient(to right, var(--darkgrey_t), var(--darkgrey_t)), url("img/construction-backdrop.jpg") repeat-y top center;
 };

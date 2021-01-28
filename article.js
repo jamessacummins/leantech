@@ -40,11 +40,14 @@ function addStep(stepItem, stepIndex){
 
 		step_container.appendChild(step);
 
-		let step_gif = document.createElement('img');
-		step_gif.classList.add('step-gif');
-		step_gif.src = stepItem.gif;
+		if(stepItem.gif != undefined){
+			console.log(stepItem.gif);
+			let step_gif = document.createElement('img');
+			step_gif.classList.add('step-gif');
+			step_gif.src = stepItem.gif;
 
-		step_container.appendChild(step_gif);
+			step_container.appendChild(step_gif);
+		};
 
 
 	article_container.appendChild(step_container);

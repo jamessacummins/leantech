@@ -10,6 +10,9 @@
 	display:flex;
 	flex-direction:column;
 	border-radius:50px;
+	max-width:800px;
+	box-shadow:  7px 7px 14px #3a444f,
+             	-7px -7px 14px #404c57;
 }
 .article-h1 {
 	display:block;
@@ -79,8 +82,8 @@
 	color:white;
 	border-radius:5px;
 	border:none;
-	font-size:1.5rem;
-	font-weight:400;
+	font-size:1.2rem;
+	font-weight:300;
 	padding:10px 20px;
 	margin:10px auto 30px;
 	cursor:pointer;
