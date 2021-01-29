@@ -1,4 +1,9 @@
-const preview_page = document.querySelector('.preview-page');
+
+let appState = {
+	page: 'index.html',
+};
+
+const content_container = document.querySelector('.content-container');
 
 function make_card(title, location, link){
 
@@ -64,13 +69,17 @@ function make_card(title, location, link){
 
 
 
-	preview_page.appendChild(preview_card);
+	content_container.appendChild(preview_card);
 };
 
-
-for(key in wiki_data){
-	let title = wiki_data[key].title;
-	let location = wiki_data[key].image_location;
-	let link = wiki_data[key].address;
-	make_card(title,location,link);
+function insertPreviewContent(){
+	content_container.innerHTML = '';
+	for(key in wiki_data){
+		let title = wiki_data[key].title;
+		let location = wiki_data[key].image_location;
+		let link = wiki_data[key].address;
+		make_card(title,location,link);
+	};
 };
+
+insertPreviewContent();

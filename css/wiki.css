@@ -1,17 +1,5 @@
 
 
-
-.preview-page{
-	display:flex;
-	flex-direction: row;
-	flex-wrap:wrap;
-	justify-content: space-evenly;
-	align-content:flex-start;
-	padding:20px;
-	min-height:85vh;
-	background-color:var(--darkgrey);
-}
-
 .preview-card{
 	flex-grow:1;
 	background:#fff;

@@ -13,7 +13,7 @@ function addHeader(){
 function addImage(){
 	let article_image_div = document.createElement('div');
 	article_image_div.classList.add('image-div');
-	article_image_div.style.backgroundImage = `url('${wiki_data[article].image_location}')`;
+	article_image_div.style.backgroundImage = `url('../${wiki_data[article].image_location}')`;
 	article_container.appendChild(article_image_div);
 };
 
@@ -44,7 +44,7 @@ function addStep(stepItem, stepIndex){
 			console.log(stepItem.gif);
 			let step_gif = document.createElement('img');
 			step_gif.classList.add('step-gif');
-			step_gif.src = stepItem.gif;
+			step_gif.src = `../${stepItem.gif}`;
 
 			step_container.appendChild(step_gif);
 		};
@@ -61,7 +61,7 @@ function addStepS(){
 
 function addButton(){
 	let button_link = document.createElement('a');
-	button_link.href = 'index.html';
+	button_link.href = '../index.html';
 
 		let button = document.createElement('button');
 		button.classList.add('article-button');

@@ -1,6 +1,6 @@
 const wiki_data = [
     {
-    	address:"app.html",
+    	address:"html/app.html",
         title:"How to Download the App",
         image_location:"img/download.jpg",
         step:[
@@ -12,7 +12,7 @@ const wiki_data = [
         ],
     },
     {
-    	address:"sign-up.html",
+    	address:"html/sign-up.html",
         title:"How to Sign Up",
         image_location:"img/use-phone.jpg",
         step:[
@@ -35,7 +35,7 @@ const wiki_data = [
         ],
     },
     {
-    	address:"item.html",
+    	address:"html/item.html",
         title:"How to Add an Item",
         image_location:"img/drill.jpg",
         step:[
@@ -52,12 +52,12 @@ const wiki_data = [
         		},
         		{
 	        		text:`Congratulations on registering an item. You are now on track to an efficient and controlled site inventory management system!`,
-	        		gif:"",
+	        		
         		},
         ],
     },
     {
-    	address:"site.html",
+    	address:"html/site.html",
         title:"How to Add a Site",
         image_location:"img/site.jpg",
         step:[
@@ -80,7 +80,7 @@ const wiki_data = [
         ],
     },
     {
-    	address:"password.html",
+    	address:"html/password.html",
         title:"How to Change my Password",
         image_location:"img/password.jpg",
         step:[
@@ -103,7 +103,7 @@ const wiki_data = [
         ],
     },
     {
-    	address:"details.html",
+    	address:"html/details.html",
         title:"How to Edit my Details",
         image_location:"img/edit.jpg",
         step:[
@@ -126,7 +126,7 @@ const wiki_data = [
         ],
     },
     {
-        address:"list.html",
+        address:"html/list.html",
         title:"How to Make a List",
         image_location:"img/list.jpg",
         step:[
@@ -149,7 +149,7 @@ const wiki_data = [
         ],
     },
     {
-        address:"filterlist.html",
+        address:"html/filterlist.html",
         title:"How to Filter a List",
         image_location:"img/filter.jpg",
         step:[
@@ -172,7 +172,7 @@ const wiki_data = [
         ],
     },
     {
-        address:"email.html",
+        address:"html/email.html",
         title:"How to Send an Email",
         image_location:"img/email.jpg",
         step:[
@@ -195,7 +195,7 @@ const wiki_data = [
         ],
     },
     {
-        address:"share.html",
+        address:"html/share.html",
         title:"How to Share an Item",
         image_location:"img/share.jpg",
         step:[
