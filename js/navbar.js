@@ -35,3 +35,24 @@ function insertNavbar(){
 
 insertNavbar();
 
+function expandNavbarMobile(){
+	let isActive = content_navbar.style.display == 'block';
+	console.log(isActive);
+	if(article == -1){
+		if(isActive){
+			content_navbar.style.display = 'none';
+			content_container.style.display = 'block';
+		} else{
+			content_navbar.style.display = 'block';
+			content_container.style.display = 'none';
+		}
+	} else{
+		if(isActive){
+			content_navbar.style.display = 'none';
+			article_page.style.display = 'block';
+		} else{
+			content_navbar.style.display = 'block';
+			article_page.style.display = 'none';
+		}
+	}
+}

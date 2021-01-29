@@ -1,6 +1,7 @@
 const step_data = wiki_data[article].step;
 
 const article_container = document.querySelector('.article-container');
+const article_page = document.querySelector('.article-page');
 
 function addHeader(){
 	let header = document.createElement('h1');
