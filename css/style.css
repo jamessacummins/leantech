@@ -96,7 +96,10 @@ a{
 	.content-container{
 		flex-basis:100%;
 	}
-	.article-container{
+	.article-page}{
 		flex-basis:100%;
+	}
+	.article-container{
+		max-width:80vw;
 	}
 }

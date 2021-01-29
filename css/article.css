@@ -101,7 +101,12 @@
 	min-width:90vw;
 
 	}
-	.article-container{
+	.article-page{
 		flex-basis:100%;
-	};
+	}
+	.article-container{
+		max-width:90%;
+		margin:20px 10px;
+	}
+	
 }
