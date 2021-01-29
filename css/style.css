@@ -86,11 +86,6 @@ a{
 	background-color:var(--darkgrey);
 }
 
-.image-div{
-	max-height:250px;
-	width:auto;
-}
-
 @media (max-width:800px){
 	.content-navbar{
 		display: none;
