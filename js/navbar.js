@@ -20,6 +20,7 @@ function insertNavbarItem(title, location, id){
 	content_navbar.appendChild(navbar_link);
 };
 
+
 function insertNavbar(){
 	content_navbar.innerHTML = '';
 	for(i in wiki_data){
@@ -33,3 +34,4 @@ function insertNavbar(){
 };
 
 insertNavbar();
+
