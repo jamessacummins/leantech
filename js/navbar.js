@@ -41,7 +41,7 @@ function expandNavbarMobile(){
 	if(article == -1){
 		if(isActive){
 			content_navbar.style.display = 'none';
-			content_container.style.display = 'block';
+			content_container.style.display = 'flex';
 		} else{
 			content_navbar.style.display = 'block';
 			content_container.style.display = 'none';
@@ -49,7 +49,7 @@ function expandNavbarMobile(){
 	} else{
 		if(isActive){
 			content_navbar.style.display = 'none';
-			article_page.style.display = 'block';
+			article_page.style.display = 'flex';
 		} else{
 			content_navbar.style.display = 'block';
 			article_page.style.display = 'none';
