@@ -10,15 +10,15 @@
 	background-color:white;
 	display:flex;
 	flex-direction:column;
-	border-radius:50px;
+	border-radius:5px;
 	max-width:800px;
 	box-shadow:  7px 7px 14px #3a444f,
              	-7px -7px 14px #404c57;
+    overflow:hidden;
 }
 .article-h1 {
 	display:block;
 	background-color: var(--coolgreen);
-	border-radius:50px 50px 0 0 ;
 	color:#333;
 	font-size:30px;
 	line-height:2;

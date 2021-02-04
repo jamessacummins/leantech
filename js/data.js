@@ -36,7 +36,7 @@ const wiki_data = [
     },
     {
     	address:"html/item.html",
-        title:"How to Add an Item",
+        title:"How to Add an Item of Equipment",
         image_location:"img/drill.jpg",
         step:[
         		{
@@ -58,24 +58,29 @@ const wiki_data = [
     },
     {
     	address:"html/site.html",
-        title:"How to Add a Site",
+        title:"How to Add or Modify a Site",
         image_location:"img/site.jpg",
         step:[
         		{
-	        		text:`Start by opening the app and tapping the Sign Up button`,
-	        		gif:"gif/signing_up_1.gif",
+	        		text:`Sites are work sites – places where construction is occurring. 
+                            Each site is a different location where equipment is hired. Adding sites 
+                            is essential to make sure you understand where exactly your equipment is. 
+                            To add or modify sites, you start by logging into the app, then navigating 
+                            to the Account tab.`,
         		},
         		{
-	        		text:`Then enter your details, noting that the first name and email fields are mandatory.`,
-	        		gif:"gif/signing_up_1.gif",
+	        		text:`Click the Sites button, and then click the big green plus to add a site.`,
+	        
         		},
         		{
-	        		text:`Then, hit the sign up button to sign up.`,
-	        		gif:"gif/signing_up_1.gif",
+	        		text:`Enter the name of the site and other details as you desire then hit save.`,
+	        	
         		},
         		{
-	        		text:`In the inbox of the email address you provided, you\’ll find an email asking you to confirm your address. Click the ….`,
-	        		gif:"gif/signing_up_1.gif",
+	        		text:`To modify a site, navigate to the same place (Account/Sites) 
+                    then click the name of the site you wish to modify and make changes as needed. 
+                    You may delete the site by pressing the trash can.`,
+	        		
         		},
         ],
     },
@@ -85,20 +90,19 @@ const wiki_data = [
         image_location:"img/password.jpg",
         step:[
         		{
-	        		text:`Start by opening the app and tapping the Sign Up button`,
-	        		gif:"gif/signing_up_1.gif",
+	        		text:`If you are not logged in click the forgot password button, 
+                            then enter your email address and click the send button. 
+                             Then check your inbox, and follow the prompts in the email your receive.`,
+	       
         		},
         		{
-	        		text:`Then enter your details, noting that the first name and email fields are mandatory.`,
-	        		gif:"gif/signing_up_1.gif",
+	        		text:`If you are logged in, first navigate to the Account tab.`,
+	        
         		},
         		{
-	        		text:`Then, hit the sign up button to sign up.`,
-	        		gif:"gif/signing_up_1.gif",
-        		},
-        		{
-	        		text:`In the inbox of the email address you provided, you\’ll find an email asking you to confirm your address. Click the ….`,
-	        		gif:"gif/signing_up_1.gif",
+	        		text:`Then click the Change password button and enter your current password and your desired password. 
+                    Click Save to save your changes.`,
+	        
         		},
         ],
     },
@@ -108,21 +112,15 @@ const wiki_data = [
         image_location:"img/edit.jpg",
         step:[
         		{
-	        		text:`Start by opening the app and tapping the Sign Up button`,
-	        		gif:"gif/signing_up_1.gif",
+	        		text:`The details of your profile are used to log into your account 
+                    and to automatically generate emails requesting equipment for hire. 
+                    To modify these, start by logging into the app, then navigating to the Account tab.`,
         		},
         		{
-	        		text:`Then enter your details, noting that the first name and email fields are mandatory.`,
-	        		gif:"gif/signing_up_1.gif",
+	        		text:`Then click the edit profile button, and enter any changes you wish to make to your account. 
+                    You can change your name, email, company or project here.`,
         		},
-        		{
-	        		text:`Then, hit the sign up button to sign up.`,
-	        		gif:"gif/signing_up_1.gif",
-        		},
-        		{
-	        		text:`In the inbox of the email address you provided, you\’ll find an email asking you to confirm your address. Click the ….`,
-	        		gif:"gif/signing_up_1.gif",
-        		},
+        		
         ],
     },
     {
@@ -131,20 +129,27 @@ const wiki_data = [
         image_location:"img/list.jpg",
         step:[
                 {
-                    text:`Start by opening the app and tapping the Sign Up button`,
-                    gif:"gif/signing_up_1.gif",
+                    text:`A list is where you can group items of equipment for easier inventory management. 
+                    That is it is a way of organising your equipment items already in the app. 
+                    Start by logging into the app, then navigate to the List tab. 
+                    Then click the green plus button to add a list.`,
                 },
                 {
-                    text:`Then enter your details, noting that the first name and email fields are mandatory.`,
-                    gif:"gif/signing_up_1.gif",
+                    text:`Enter the name you wish to call the list and hit the Create button.`,
                 },
                 {
-                    text:`Then, hit the sign up button to sign up.`,
-                    gif:"gif/signing_up_1.gif",
+                    text:`Your list has now been created and you can 
+                    start adding items that you’ve already created. 
+                    Navigate to the Items tab and press and hold the first item 
+                    you wish to add until the app switches to select mode.`,
                 },
                 {
-                    text:`In the inbox of the email address you provided, you\’ll find an email asking you to confirm your address. Click the ….`,
-                    gif:"gif/signing_up_1.gif",
+                    text:`Once the first item has been selected and the app is in select mode, 
+                    you can now bulk select the remaining desired items by tapping each. 
+                    Select all the items you wish to add.`,
+                },
+                {
+                    text:`Then, hit the add list button and select the list you wish your selected items to be added to.`,
                 },
         ],
     },
@@ -154,39 +159,16 @@ const wiki_data = [
         image_location:"img/filter.jpg",
         step:[
                 {
-                    text:`Start by opening the app and tapping the Sign Up button`,
-                    gif:"gif/signing_up_1.gif",
+                    text:`You can sort a list to help you quickly find items within a list you’ve already made. 
+                    Start by logging in and navigating to the List tab.`,
                 },
                 {
-                    text:`Then enter your details, noting that the first name and email fields are mandatory.`,
-                    gif:"gif/signing_up_1.gif",
+                    text:`Click the list you wish to sort to access it, 
+                    then click then AZ filter button to see possible sorts.`,
                 },
                 {
-                    text:`Then, hit the sign up button to sign up.`,
-                    gif:"gif/signing_up_1.gif",
-                },
-                {
-                    text:`In the inbox of the email address you provided, you\’ll find an email asking you to confirm your address. Click the ….`,
-                    gif:"gif/signing_up_1.gif",
-                },
-        ],
-    },
-    {
-        address:"html/email.html",
-        title:"How to Send an Email",
-        image_location:"img/email.jpg",
-        step:[
-                {
-                    text:`Start by opening the app and tapping the Sign Up button`,
-                    gif:"gif/signing_up_1.gif",
-                },
-                {
-                    text:`Then enter your details, noting that the first name and email fields are mandatory.`,
-                    gif:"gif/signing_up_1.gif",
-                },
-                {
-                    text:`Then, hit the sign up button to sign up.`,
-                    gif:"gif/signing_up_1.gif",
+                    text:`c.    You can click the Title button to sort items alphabetically, click the Hire date to sort items by date of hire, 
+                    and click Status to sort items by where they are in the hire lifecycle.`,
                 },
                 {
                     text:`In the inbox of the email address you provided, you\’ll find an email asking you to confirm your address. Click the ….`,
@@ -196,24 +178,41 @@ const wiki_data = [
     },
     {
         address:"html/share.html",
-        title:"How to Share an Item",
-        image_location:"img/share.jpg",
+        title:"How to Share an Item of Equipment",
+        image_location:"img/together.jpeg",
         step:[
                 {
-                    text:`Start by opening the app and tapping the Sign Up button`,
-                    gif:"gif/signing_up_1.gif",
+                    text:`TBC`,
                 },
+        ],
+    },
+    {
+        address:"html/market.html",
+        title:"How to Add a Marketplace Item",
+        image_location:"img/market.jpeg",
+        step:[
                 {
-                    text:`Then enter your details, noting that the first name and email fields are mandatory.`,
-                    gif:"gif/signing_up_1.gif",
+                    text:`TBC`,
                 },
+        ],
+    },
+    {
+        address:"html/email.html",
+        title:"How to Send an Autogenerated Hire Request",
+        image_location:"img/email.jpg",
+        step:[
                 {
-                    text:`Then, hit the sign up button to sign up.`,
-                    gif:"gif/signing_up_1.gif",
+                    text:`TBC`,
                 },
+        ],
+    },
+    {
+        address:"html/template.html",
+        title:"How to Edit an Autogenerated Email Template",
+        image_location:"img/canvas.jpeg",
+        step:[
                 {
-                    text:`In the inbox of the email address you provided, you\’ll find an email asking you to confirm your address. Click the ….`,
-                    gif:"gif/signing_up_1.gif",
+                    text:`TBC`,
                 },
         ],
     },

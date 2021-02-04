@@ -85,6 +85,9 @@ a{
 	padding:20px;
 	background-color:var(--darkgrey);
 }
+.mobile-nav-button{
+	display:none;
+}
 
 @media (max-width:800px){
 	.content-navbar{
