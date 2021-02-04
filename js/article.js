@@ -54,6 +54,8 @@ function addStep(stepItem, stepIndex){
 	article_container.appendChild(step_container);
 };
 
+
+
 function addStepS(){
 	for(index in step_data){
 		addStep(step_data[index],index);

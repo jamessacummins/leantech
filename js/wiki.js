@@ -1,9 +1,9 @@
 
-let appState = {
-	page: 'index.html',
-};
-
 const content_container = document.querySelector('.content-container');
+
+/*
+
+// This was before I figured out a more efficient way of building the cards.
 
 function make_card(title, location, link){
 
@@ -72,13 +72,40 @@ function make_card(title, location, link){
 	content_container.appendChild(preview_card);
 };
 
+*/
+
+function quick_make_card(title, location, link){
+	let codeBlock = `
+			<div class='title-container'>
+				<h1 class='card-title'>
+					${title}
+				</h1>
+				<div class='title-line'></div>
+			</div>
+			<div class='card-img' style='background-image: url("${location}");'></div>
+			<div class='click-container'>
+				<a class='preview-link' href="${link}">
+					<h1 class='preview-click'>
+						Read More
+					</h1>
+				</a>
+				<div class='click-line'></div>
+			</div>
+	`;
+	let codeInsert = document.createElement('div');
+	codeInsert.innerHTML = codeBlock;
+	codeInsert.classList.add('preview-card');
+	content_container.appendChild(codeInsert);
+};
+
+
 function insertPreviewContent(){
 	content_container.innerHTML = '';
 	for(key in wiki_data){
 		let title = wiki_data[key].title;
 		let location = wiki_data[key].image_location;
 		let link = wiki_data[key].address;
-		make_card(title,location,link);
+		quick_make_card(title,location,link);
 	};
 };
 
