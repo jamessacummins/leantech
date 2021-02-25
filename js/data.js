@@ -66,20 +66,23 @@ const wiki_data = [
                             is essential to make sure you understand where exactly your equipment is. 
                             To add or modify sites, you start by logging into the app, then navigating 
                             to the Account tab.`,
+                    gif:`gif/site_1.gif`,
         		},
         		{
 	        		text:`Click the Sites button, and then click the big green plus to add a site.`,
+                    gif:`gif/site_2.gif`,
 	        
         		},
         		{
 	        		text:`Enter the name of the site and other details as you desire then hit save.`,
+                    gif:`gif/site_3.gif`,
 	        	
         		},
         		{
 	        		text:`To modify a site, navigate to the same place (Account/Sites) 
                     then click the name of the site you wish to modify and make changes as needed. 
                     You may delete the site by pressing the trash can.`,
-	        		
+	        		gif:`gif/site_4.gif`,
         		},
         ],
     },
@@ -92,15 +95,18 @@ const wiki_data = [
 	        		text:`If you are not logged in click the forgot password button, 
                             then enter your email address and click the send button. 
                              Then check your inbox, and follow the prompts in the email your receive.`,
+                    gif:`gif/forgot_3.gif`
 	       
         		},
         		{
 	        		text:`If you are logged in, first navigate to the Account tab.`,
+                    gif:`gif/site_1.gif`
 	        
         		},
         		{
-	        		text:`Then click the Change password button and enter your current password and your desired password. 
+	        		text:`Then click the Change Password button and enter your current password and your desired password. 
                     Click Save to save your changes.`,
+                    gif:`gif/forgot_1.gif`,
 	        
         		},
         ],
@@ -114,6 +120,7 @@ const wiki_data = [
 	        		text:`The details of your profile are used to log into your account 
                     and to automatically generate emails requesting equipment for hire. 
                     To modify these, start by logging into the app, then navigating to the Account tab.`,
+                    gif:`gif/site_1.gif`,
         		},
         		{
 	        		text:`Then click the edit profile button, and enter any changes you wish to make to your account. 

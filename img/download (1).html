@@ -1,0 +1,337 @@
+  <!DOCTYPE html><html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-55XKM7B');</script>
+<!-- End Google Tag Manager -->
+    <style>
+    * {
+    	box-sizing: border-box;
+    }
+
+    body {
+    	font-family: Helvetica;
+    	line-height:1.4;
+    	background-color: #ffffff;
+    	margin:0 auto;
+    	min-height:100%;
+      position:relative;
+    }
+
+
+    h1{
+    	color:#0086b7;
+    }
+
+    h2 {
+    	color:#0086b7;
+    }
+
+    h3{
+      margin:5px;
+    }
+
+    .cta{
+      background-color:orange;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        display:inline-block;
+        margin:20px;
+        width:130px;
+        text-align:center;
+
+    }
+
+    img {
+    	max-width: 100%;
+    }
+
+    header {
+
+    	position: relative;
+    	margin: 0;
+        padding: 55px 0;
+        min-height:200px;
+    	  width:100%;
+    	background: url("https://source.unsplash.com/random/1200x200") no-repeat center left;
+        background-size: cover;
+    }
+
+    header h1 {
+    	font-size: 2.8em;
+    	padding: 0.8em;
+    	margin:0;
+    }
+
+    a{
+    	color:#ff654f;
+    }
+
+    a:hover {
+        font-weight: bold;
+    }
+
+    a:focus {
+        font-weight: bold;
+    }
+
+    button {
+      margin: 35px;
+    }
+    /*Navigation Styles*/
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0086b7;
+    	font-weight: bold;
+    }
+
+    nav li {
+        float: left;
+    	border-right: 1px solid #dddddd;
+    }
+
+    nav li a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        background-color: orange;
+    	color: #000;
+    }
+
+    nav li a:focus {
+        background-color: orange;
+    	color: black;
+    }
+
+    nav li a.active {
+        background-color: orange;
+    	color: black;
+    }
+
+    /*Main Styles*/
+    main {
+    	width: 80%;
+    	margin:0 auto;
+    	padding: 10px 10px 80px 10px ;	/* 60px = Height of the footer */
+    }
+
+    .container{
+      max-width:600px;
+      margin:auto;
+    }
+
+    /*Table Styles*/
+
+    table{
+       width:100%;
+    }
+    table, th, td {
+    	border:1px solid #d8d8d8;
+    	border-collapse: collapse;
+    }
+
+    th, td {
+    	padding: 10px;
+
+    }
+
+    td {
+    	text-align: center;
+    }
+
+    /*Styles for the Footer*/
+    footer {
+    	background-color: #0086b7;
+    	color: white;
+    	text-align: center;
+    	padding: 2px;
+    	clear: both;
+        width:100%;
+    	position:absolute;
+    	bottom:0;
+    	height:60px;   /* Height of the footer */
+    }
+
+    footer a {
+    	font-weight:bold;
+    	color: #ffa99c;
+    }
+    footer a:hover{
+    	color: orange;
+    }
+
+    /*Styles for column grids and paddings*/
+    .col-6 {
+    	float: left;
+    	width: 50%;
+    	padding-right: 20px;
+    }
+
+    .col-8 {
+    	float: left;
+    	width: 66.6%;
+    	padding-right: 20px;
+    }
+
+    .col-4 {
+    	float: left;
+    	width: 33.3%;
+    	padding-right: 20px;
+    }
+
+    .col-6 a {
+    	text-align: center;
+    }
+
+    .padded-15{
+    	padding:15px;
+    }
+
+    .centered{
+    	text-align:center;
+    }
+
+
+    /*Media Queries*/
+
+    /* For mobile phones: */
+    @media only screen and (max-width: 768px) {
+        .col-6, .col-3, .col-8 {
+            float: inherit;
+    		width: 100%;
+    		padding-right: 0px;
+        }
+
+    }
+
+    /*Styles for column grids and paddings*/
+    .col-6 {
+    	float: left;
+    	width: 50%;
+    	padding: 15px;
+    }
+
+    .col-8 {
+    	float: left;
+    	width: 66.6%;
+    	padding: 15px;
+    }
+
+    .col-4 {
+    	float: left;
+    	width: 33.3%;
+    	padding: 15px;
+    }
+
+    .col-3 {
+    	float: left;
+    	width: 25%;
+    	padding: 15px;
+    }
+
+    .row{
+      display: inline-block;
+      width:100%;
+    }
+
+    .row img{
+      width:100%;
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55XKM7B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+      <div>
+      <header role="banner">
+    			<h1>New Jersey Pet Lovers</h1>
+    		</header>
+
+    		<nav role="navigation">
+    			<ul>
+    				<li id="home"><a href="#">Home</a></li>
+    				<li id="pets"><a class="active" href="#">Pets</a></li>
+    				<li id="adopt"><a href="#">Adopt</a></li>
+    				<li id="donate"><a href="#">Donate</a></li>
+    				<li id="contact"><a href="#">Contact</a></li>
+    			</ul>
+    		</nav>
+
+    		<main id="maincontent" role="main">
+
+          <div class="row">
+
+    				<div class="col-6">
+              <img id="php-img" src="">
+    				</div>
+
+            <div class="col-6">
+              <h1 id="php-h1"></h1>
+              <p id="php-p"></p>
+              <button>
+                <a href="" id="php-a" download>get item</a>
+              </button>
+              <table>
+                 <tbody><tr><th>
+                   Breed
+                </th>
+                 <th>
+                   Gender
+                </th>
+                 <th>
+                   Age
+                </th>
+                 <th>
+                   Good with
+                </th>
+
+                </tr><tr>
+                 <td>
+                   Mixed Breed
+                </td>
+                 <td>
+                   Female
+                </td>
+                 <td>
+                   6 Years
+                </td>
+                 <td>
+                   I Want To Be Your Only Fur-Kid
+                </td>
+                </tr>
+
+              </tbody></table>
+
+
+
+            </div>
+
+    		  </div>
+
+
+
+    		</main>
+    		<footer role="contentinfo">
+    			<p>New Jersey Pet Lovers | <a href="#">Contact Us</a></p>
+    		</footer>
+      </div>
+      <div id="error"></div>
+  
+
+</body></html>
