@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
 :root{
 	--darkgrey: #3d4853;
 	--darkgrey_t: #3d4853cc;
@@ -33,12 +35,16 @@ a{
 }
 
 .logo{
-	max-height:60px;
+	max-width:135px;
 	width:auto;
 }
-.hamburger{
-	max-height:80px;
-	width:auto;
+nav a{
+	background-color:var(--darkgrey);
+	padding:1.3rem;
+	border-radius:50px;
+	color:white;
+	font-weight:500;
+	box-shadow:0 7px 14px rgba(50,50,93,.13),0 3px 6px rgba(0,0,0,.08);
 }
 
 .construction-background {
@@ -56,7 +62,7 @@ a{
 	background-color:#f0f0f0;
 	padding:20px;
 	overflow-wrap: break-word;
-	flex:1 1 0;
+	flex:.6 1 0;
 }
 
 .wiki-navbar-item{
@@ -89,9 +95,16 @@ a{
 	display:none;
 }
 
+.appicon{
+	height:3.5rem;
+	margin:.8rem;
+	cursor:pointer;
+}
+
 @media (max-width:800px){
 	.content-navbar{
 		display: none;
+		flex: 1 1 0;
 	}
 	.content-container{
 		flex-basis:100%;
@@ -103,6 +116,7 @@ a{
 		width:75px;
 		height:75px;
 		border-radius:50%;
+		border: white solid 1px;
 		z-index:200;
 		background-color:var(--darkgrey);
 		cursor:pointer;
@@ -115,5 +129,10 @@ a{
 		height:50%;
 		background-image:url('../img/expand.svg');
 		fill:green;
+	}
+	nav a{
+		padding:.5rem;
+		font-size:.7rem;
+		max-width:100px;
 	}
 }

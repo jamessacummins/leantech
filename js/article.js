@@ -24,20 +24,20 @@ function addStep(stepItem, stepIndex){
 
 	let step_container = document.createElement('div');
 	step_container.classList.add('step-container');
-
-		let step_num = document.createElement('div');
-		step_num.classList.add('step-num');
-			
-			let step_num_text = document.createTextNode(stepIndex);
-			step_num.appendChild(step_num_text);
-
-		step_container.appendChild(step_num);
+		if(stepItem.noNum != true){
+			let step_num = document.createElement('div');
+			step_num.classList.add('step-num');
+				
+				let step_num_text = document.createTextNode(stepIndex);
+				step_num.appendChild(step_num_text);
+	
+			step_container.appendChild(step_num);
+		}
 
 		let step = document.createElement('div');
 		step.classList.add('step');
 
-			let step_text = document.createTextNode(stepItem.text);
-			step.appendChild(step_text);
+		step.innerHTML = stepItem.text;
 
 		step_container.appendChild(step);
 
